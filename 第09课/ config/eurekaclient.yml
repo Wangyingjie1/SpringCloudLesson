@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: eurekaclient
+  profiles:
+    active: dev
   rabbitmq:
     host: localhost
     port: 5672
